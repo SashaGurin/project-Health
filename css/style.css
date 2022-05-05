@@ -654,3 +654,179 @@ body {
 .stay-safe__block-text {
   max-width: 365px;
 }
+
+/* Section  Experts .............. */
+
+.experts {
+  padding: 53px 0px 116px;
+  background: #fafbfd;
+}
+
+.experts__top {
+}
+
+.experts__top-number-box {
+  padding: 51px 0px 32px;
+  width: 756px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.experts__decor {
+  position: absolute;
+  background: #ec5863;
+  border-radius: 16px;
+}
+
+.decor__4 {
+  width: 65.75px;
+  height: 65.75px;
+  transform: rotate(-30deg);
+  bottom: 7px;
+  left: 32px;
+}
+
+.decor__5 {
+  width: 96.96px;
+  height: 96.96px;
+  background: #ec5863;
+  border-radius: 30px;
+  transform: rotate(105deg);
+  top: 5px;
+  left: 283px;
+}
+
+.decor__6 {
+  width: 127.47px;
+  height: 127.47px;
+  background: #ec5863;
+  border-radius: 30px;
+  transform: rotate(-30deg);
+  right: 0;
+  top: 50px;
+}
+
+.number-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 654px;
+  height: 117px;
+  background: #ffffff;
+  box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+  border-radius: 16px;
+  padding: 28px 80px;
+  position: relative;
+  z-index: 5;
+}
+
+.number-box__item {
+  text-align: center;
+}
+
+.number-box__item-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.14em;
+  color: #ec5863;
+  margin-bottom: 5px;
+}
+
+.number-box__item-subtitle {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 1.2;
+  letter-spacing: 0.37em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.experts__bottom {
+  margin-top: 46px;
+}
+
+.experts__bottom-iner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experts__bottom-content {
+  flex: 0 1 50%;
+  padding-right: 20px;
+}
+
+.experts__bottom-text {
+  max-width: 365px;
+}
+
+.experts__bottom-video {
+  flex: 0 1 50%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.video__container {
+  position: relative;
+  padding-bottom: 58%;
+}
+
+.video-obj {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+  border-radius: 8px;
+}
+
+.play-video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+/* Section  Healthcare .......... */
+.healthcare {
+  padding: 80px 0px 24px 0px;
+}
+
+.healthcare__text {
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.healthcare-text .block-text__title:not(:last-child) {
+  margin-bottom: 14px;
+}
+.healthcare-text .block-text__text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.healthcare__bottom-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.healthcare__column {
+  flex: 0 1 33.333%;
+}
+
+.healthcare__item {
+}
+
+.healthcare__item-icon {
+}
+
+.healthcare__item-title {
+}
+
+.healthcare__item-text {
+}
