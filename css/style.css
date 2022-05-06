@@ -507,8 +507,6 @@ body {
 }
 
 /* === block text---БЭМ block === */
-.block-text {
-}
 
 .block-text__title {
   font-weight: 700;
@@ -656,13 +654,9 @@ body {
 }
 
 /* Section  Experts .............. */
-
 .experts {
   padding: 53px 0px 116px;
   background: #fafbfd;
-}
-
-.experts__top {
 }
 
 .experts__top-number-box {
@@ -794,7 +788,7 @@ body {
 
 /* Section  Healthcare .......... */
 .healthcare {
-  padding: 80px 0px 24px 0px;
+  padding: 80px 0px 75px 0px;
 }
 
 .healthcare__text {
@@ -816,17 +810,110 @@ body {
 }
 
 .healthcare__column {
-  flex: 0 1 33.333%;
+  flex: 1 1 33.333%;
+  display: flex;
 }
 
 .healthcare__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 36px 17px;
+  background: #ffffff;
+  box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+  border-radius: 8px;
+  margin: 0 37px;
+  flex: 1 1 33.333%;
 }
 
 .healthcare__item-icon {
+  margin-bottom: 58px;
 }
 
 .healthcare__item-title {
+  flex: 1 1 auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 138.5%;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #000000;
+  margin-bottom: 5px;
 }
 
 .healthcare__item-text {
+  font-size: 12px;
+  line-height: 138.5%;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #616161;
+  max-width: 242px;
+  /* margin-top: auto; */
+}
+.item_1,
+.item_2,
+.item_3 {
+  position: relative;
+}
+.item_1::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  bottom: -31px;
+  width: 65.75px;
+  height: 65.75px;
+  background: #ec5863;
+  border-radius: 16px;
+  transform: rotate(-30deg);
+  z-index: -1;
+}
+.item_1::after {
+  content: "";
+  position: absolute;
+  right: -45px;
+  top: 26px;
+  width: 96.96px;
+  height: 96.96px;
+  background: #ec5863;
+  border-radius: 30px;
+  transform: rotate(105deg);
+  z-index: -1;
+}
+
+.item_2::after {
+  content: "";
+  position: absolute;
+  right: -68px;
+  top: 155px;
+  width: 127.47px;
+  height: 127.47px;
+  background: #ec5863;
+  border-radius: 30px;
+  transform: rotate(-30deg);
+  z-index: -1;
+}
+.item_3::after {
+  content: "";
+  position: absolute;
+  right: -25px;
+  top: -30px;
+  width: 65.75px;
+  height: 65.75px;
+  background: #ec5863;
+  border-radius: 16px;
+  transform: rotate(-30deg);
+  z-index: -1;
+}
+
+/* Footer ........... */
+.footer {
+  padding-bottom: 40px;
+}
+
+.footer__iner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
 }
